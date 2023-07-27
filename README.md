@@ -8,6 +8,10 @@ windows服务管理工具
 
 #### 软件架构
 软件架构说明
+.net5
+wpf
+handycontrol
+ropertychanged.fody
 
 
 #### 安装教程
@@ -17,10 +21,8 @@ windows服务管理工具
 3.  xxxx
 
 #### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+导出配置的功能是在服务部署后用作收集服务器上部署的软件信息(端口、配置信息、数据库等)，
+若要适配其他逻辑，需要修改DetectCommand(读取配置文件)、ExportCommand(导出成需要的输出格式)
 
 #### 参与贡献
 
