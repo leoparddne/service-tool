@@ -255,7 +255,7 @@ namespace ServiceTool.VM
                         continue;
                     }
                     ProcessCommandBase process = new ProcessCommandBase("cmd.exe");
-                    process.AddParameter($" /c sc failure \"{item.ServiceName}\"  reset= \"60\" actions= \"restart/30000/restart/30000/restart/30000\" ");
+                    process.AddParameter($" /c sc failure \"{item.ServiceName}\"  reset= \"60\" actions= \"restart/60000/restart/60000/restart/60000\" ");
 
                     process.Exec();
 
